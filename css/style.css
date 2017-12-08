@@ -127,7 +127,7 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 
 ::-moz-selection{ color: #fff; background:#000; }
 ::-webkit-selection{ color: #fff;	background:#000; }
-::selection{ color: #fff;	background:#000; }
+::selection{ color: #fff;	background:#fff; }
 
 .animate, .animate *{
 	-webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
@@ -350,7 +350,7 @@ img:not([draggable]), embed, object, video{
    ============================== */
 
 body{
-	color: #fff;
+	color: #333;
 	font-size: 14px;
 	font-family: "Open Sans", arial, sans-serif;
 	line-height: 1.6;	
@@ -2357,7 +2357,7 @@ a.logo:hover{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
     
-	padding: 140px 0;
+	padding: 14px 0;
 }
 .small-section{
 	padding: 70px 0;
@@ -6365,6 +6365,7 @@ section:hover .small-item-carousel .owl-next{
 
 .countdown.dark .countdown-number{
     color: #fff;
+	font-family: Dosis, arial, sans-serif;
 }
 .countdown.dark .countdown-number > b{
     color: #c13d67;
@@ -6429,4 +6430,9 @@ section:hover .small-item-carousel .owl-next{
 	.multi-columns-row .col-lg-3:nth-child(4n + 5) { clear: left; }
 	.multi-columns-row .col-lg-2:nth-child(6n + 7) { clear: left; }
 	.multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
+}
+
+#background-text{
+	color:#fff;
+	
 }
