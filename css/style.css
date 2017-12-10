@@ -2029,6 +2029,13 @@ a.logo:hover{
     height: 54px;
     z-index: 1030;
 }
+ .fm-logo-wrap2{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    height: 54px;
+    z-index: 1030;
+}
 .fm-logo-wrap .logo{
     display: block;
     max-width: 200px;
