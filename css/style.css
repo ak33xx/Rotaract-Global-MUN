@@ -2032,7 +2032,7 @@ a.logo:hover{
  .fm-logo-wrap2{
     position: absolute;
     top: 100px;
-    left: 30px;
+    left: 70px;
     height: 54px;
     z-index: 1030;
 }
@@ -2055,6 +2055,24 @@ a.logo:hover{
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 } 
   
+.fm-logo-wrap2 .logo{
+    display: block;
+    max-width: 200px;
+    position: relative;
+    top: 50%;  
+    
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+} 
 .fm-button{
     display: block;
     position: fixed;
@@ -6444,7 +6462,7 @@ section:hover .small-item-carousel .owl-next{
 	
 }
 
-#image-responsive{
-	max-width: 100%;
+.image-responsive img{
+	max-width: 50%;
 	height: auto;
 }
