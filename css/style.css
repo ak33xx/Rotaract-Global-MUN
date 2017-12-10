@@ -6364,14 +6364,14 @@ section:hover .small-item-carousel .owl-next{
 /* Dark Timer */
 
 .countdown.dark .countdown-number{
-    color: #fff;
+    color: #000;
 	font-family: Dosis, arial, sans-serif;
 }
 .countdown.dark .countdown-number > b{
     color: #c13d67;
 }
 .countdown.dark .countdown-number:before{
-    background: rgba(0,0,0, .8);
+    background: rgba(255,255,255, .8);
 }
 
 
