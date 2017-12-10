@@ -2036,6 +2036,12 @@ a.logo:hover{
     height: 54px;
     z-index: 1030;
 }
+ @media only screen and (max-width: 768px) {
+   .fm-logo-wrap2 {
+     display: none;
+   }
+ }
+
 .fm-logo-wrap .logo{
     display: block;
     max-width: 200px;
@@ -6466,3 +6472,4 @@ section:hover .small-item-carousel .owl-next{
 	max-width: 50%;
 	height: auto;
 }
+
