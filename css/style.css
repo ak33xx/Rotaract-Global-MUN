@@ -667,7 +667,7 @@ a.btn-mod:focus{
 }
 
 .btn-mod.btn-border{
-  	color: #151515;
+  	color: #fff;
 	border: 2px solid #151515;
   	background: transparent;
 }
@@ -675,7 +675,7 @@ a.btn-mod:focus{
 .btn-mod.btn-border:focus{
   	color: #fff;
 	border-color: transparent;
-  	background: #000;
+  	background: #e6467e;
 }
 
 .btn-mod.btn-border-c{
@@ -2025,6 +2025,13 @@ a.logo:hover{
  .fm-logo-wrap{
     position: absolute;
     top: 30px;
+    left: 30px;
+    height: 54px;
+    z-index: 1030;
+}
+ .fm-logo-wrap2{
+    position: absolute;
+    top: 100px;
     left: 30px;
     height: 54px;
     z-index: 1030;
