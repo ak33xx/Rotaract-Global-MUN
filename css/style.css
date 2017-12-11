@@ -2036,11 +2036,21 @@ a.logo:hover{
     height: 54px;
     z-index: 1030;
 }
- @media only screen and (max-width: 768px) {
-   .fm-logo-wrap2 {
+ @media only screen and (max-width: 800px) {
+   .fm-logo-wrap {
      display: none;
    }
+   .fm-logo-wrap2 {
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	z-index: 1030;	   
  }
+    .fm-logo-wrap2 img {
+	height: 50px;
+	width: 85px;
+ }
+ } 
 
 .fm-logo-wrap .logo{
     display: block;
