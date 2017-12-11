@@ -668,25 +668,27 @@ a.btn-mod:focus{
 
 .btn-mod.btn-border{
   	color: #fff;
-	border: 2px solid #151515;
-  	background: transparent;
+	border-color: transparent;
+	
+  	background: #e6467e;
 }
 .btn-mod.btn-border:hover,
 .btn-mod.btn-border:focus{
   	color: #fff;
-	border-color: transparent;
+	border: 3px solid #151515;
   	background: #e6467e;
 }
 
 .btn-mod.btn-border-c{
   	color: #e41919;
-	border: 2px solid #e41919;
+	border-color: transparent;
+
   	background: transparent;
 }
 .btn-mod.btn-border-c:hover,
 .btn-mod.btn-border-c:focus{
   	color: #fff;
-	border-color: transparent;
+	border: 2px solid #e41919;
   	background: #e41919;
 }
 
@@ -2043,7 +2045,7 @@ a.logo:hover{
    .fm-logo-wrap2 {
 	position: absolute;
 	top: 15px;
-	left: 20px;
+	left: 15px;
 	z-index: 1030;	   
  }
     .fm-logo-wrap2 img {
