@@ -668,25 +668,27 @@ a.btn-mod:focus{
 
 .btn-mod.btn-border{
   	color: #fff;
-	border: 2px solid #151515;
-  	background: transparent;
+	border-color: transparent;
+	
+  	background: #e6467e;
 }
 .btn-mod.btn-border:hover,
 .btn-mod.btn-border:focus{
   	color: #fff;
-	border-color: transparent;
+	border: 3px solid #151515;
   	background: #e6467e;
 }
 
 .btn-mod.btn-border-c{
   	color: #e41919;
-	border: 2px solid #e41919;
+	border-color: transparent;
+
   	background: transparent;
 }
 .btn-mod.btn-border-c:hover,
 .btn-mod.btn-border-c:focus{
   	color: #fff;
-	border-color: transparent;
+	border: 2px solid #e41919;
   	background: #e41919;
 }
 
@@ -2032,10 +2034,26 @@ a.logo:hover{
  .fm-logo-wrap2{
     position: absolute;
     top: 100px;
-    left: 30px;
+    left: 70px;
     height: 54px;
     z-index: 1030;
 }
+ @media only screen and (max-width: 800px) {
+   .fm-logo-wrap {
+     display: none;
+   }
+   .fm-logo-wrap2 {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	z-index: 1030;	   
+ }
+    .fm-logo-wrap2 img {
+	height: 50px;
+	width: 85px;
+ }
+ } 
+
 .fm-logo-wrap .logo{
     display: block;
     max-width: 200px;
@@ -2055,6 +2073,24 @@ a.logo:hover{
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 } 
   
+.fm-logo-wrap2 .logo{
+    display: block;
+    max-width: 200px;
+    position: relative;
+    top: 50%;  
+    
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+} 
 .fm-button{
     display: block;
     position: fixed;
@@ -6443,3 +6479,9 @@ section:hover .small-item-carousel .owl-next{
 	color:#fff;
 	
 }
+
+.image-responsive img{
+	max-width: 50%;
+	height: auto;
+}
+
